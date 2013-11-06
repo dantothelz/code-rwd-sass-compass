@@ -19,20 +19,3 @@ section {
 footer {
   @extend %region-padding;
 }
-
-.recipe {
-  @include background-grid;
-  @include clearfix;
-}
-
-.ingredients {
-  @include grid-span(2, 1);
-}
-
-.directions {
-  @include grid-span(3, 3);
-}
-
-.media {
-  @include grid-span(5, 6);
-}
