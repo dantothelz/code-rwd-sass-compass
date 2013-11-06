@@ -20,8 +20,9 @@ footer {
   @extend %region-padding;
 }
 
-body {
+.recipe {
   @include background-grid;
+  @include clearfix;
 }
 
 .ingredients {
